@@ -1,0 +1,80 @@
+/* Body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #e9ecef;
+}
+
+/* Container styling */
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Header styling */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input and button styling */
+input,
+button {
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+input {
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Expense item styling */
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.expense-item span {
+  flex: 1;
+  color: #333;
+}
+
+/* Expense actions styling */
+.expense-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Overdue warning styling */
+.overdue {
+  color: red;
+  font-weight: bold;
+}
